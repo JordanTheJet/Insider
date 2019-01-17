@@ -1,12 +1,26 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://beta.ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content class="bgimg">
+
+  <h2 style=" color:white; text-align: center;" class="heading"><b>Enter Phone Numbers:</b></h2>
+  
+        <div id="playerList">
+            <!-- <input class="input"required type="text" placeholder="###-###-####" id="player1">
+            <input class="input"required type="text" placeholder="###-###-####" id="player2">
+            <input class="input"required type="text" placeholder="###-###-####" id="player3">
+            <input class="input"required type="text" placeholder="###-###-####" id="player4"> -->
+          <ion-input class="input"required type="string" placeholder="###-###-####" id="player1"></ion-input>
+          <ion-input class="input"required type="string" placeholder="###-###-####" id="player2"></ion-input>
+          <ion-input class="input"required type="string" placeholder="###-###-####" id="player3"></ion-input>
+          <ion-input class="input"required type="string" placeholder="###-###-####" id="player4"></ion-input>
+         
+        </div>
+    
+      <div class="center">
+      <ion-button style="text-align: center;" size="large"  color="dark"(click)="addPlayer()"class="heading">Add Player</ion-button>
+      </div>
+      <br>
+      <br>
+      
+      <ion-button color="dark" strong="true" (click)="submit()"class="footer">Start Game</ion-button>
+    
 </ion-content>

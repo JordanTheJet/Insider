@@ -1,1 +1,38 @@
+ion-content{
+    --background: transparent;
+    // --background: rgb(255,0,0);
+     
+}
+.heading{
+    font-family: monospace; 
+}
 
+ion-list{
+    --background: rgb(255,0,0)
+}
+.input{
+    --background: transparent;
+    --background: rgb(255,0,0);
+    color: white;
+    text-align: center;
+
+}
+.bgimg {
+    margin-left: auto;
+    margin-right: auto;
+    --background: url('../../assets/Insider.png')  center/cover;
+   }
+.center{
+       text-align:center
+   }
+.footer{
+    position: fixed; 
+    bottom:10%;
+    font-family: monospace; 
+    width: 100%;
+    border-radius: 25px;
+}
+// .startButton{
+//     position: fixed;
+//     bottom: 10%;
+// }
